@@ -4,6 +4,6 @@ var kakka = require('./index')
 describe('basic test',function() {
     it('should return correct name',function(){
         var nimi = 'pekka'
-        assert.equal(kakka.test(nimi),nimi)
+        assert.equal(kakka.test(nimi),"pentti")
     })
 })    
